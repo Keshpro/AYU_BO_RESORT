@@ -1,0 +1,10 @@
+@charset "utf-8";
+body p {
+}
+.container .embed-responsive.embed-responsive-16by9 .embed-responsive-item {
+    background-color: #CE3B3E;
+}
+.back {
+    background-color: #FFFFFF;
+    background-image: url(assets/img/silhouette-palm-tree-with-umbrella.jpg);
+}
