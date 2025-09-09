@@ -145,6 +145,50 @@ section {
   margin-top: 20px;
 }
 
+/* vehicle  css */
+.vehicle-box {
+  background: #000;
+  color: #fff;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+
+.vehicle-image {
+  width: 100%;
+  height: 220px;
+  background: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.vehicle-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.vehicle-text {
+  padding: 20px;
+  background: #111;
+  border-top: 2px solid #f8c146;
+}
+
+.vehicle-text h3 {
+  color: #f8c146;
+  margin-bottom: 10px;
+}
+
+.vehicle-text ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+
 /* Footer */
 footer {
   background: #000;
