@@ -8,7 +8,7 @@ body p {
     background-color: #FFFFFF;
 }
 .back .navbar.navbar-expand-lg.navbar-light.bg-light .navbar-brand {
-    background-color: #9C9999;
+    background-color: #1A1A1A;
 }
 .navbar-nav.mr-auto .nav-item.active .nav-link {
     background-color: #858080;
@@ -36,9 +36,17 @@ body {
     background-size: cover;
 }
 .back .description {
-    background-image: url(assets/img/lotus.jpg);
     background-size: cover;
+    background-color: #0A0A0A;
 }
+.back .description h2 {
+    color: #DAA520;
+}
+.back .description p {
+    color: #DAA520;
+}
+
+
 .back #contact {
 }
 .back #contact .findus {
@@ -169,4 +177,66 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
+}
+.back {
+}
+.nav.navbar-nav.menu_nav.ml-auto .nav-item .nav-link {
+    color: #D4AF37;
+}
+
+.back .navbar.navbar-expand-lg.navbar-light.bg-light {
+    text-decoration: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    background-image: -webkit-linear-gradient(91deg,rgba(26,26,26,1.00) 0%,rgba(26,26,26,1.00) 99.59%);
+    background-image: -moz-linear-gradient(91deg,rgba(26,26,26,1.00) 0%,rgba(26,26,26,1.00) 99.59%);
+    background-image: -o-linear-gradient(91deg,rgba(26,26,26,1.00) 0%,rgba(26,26,26,1.00) 99.59%);
+    background-image: linear-gradient(359deg,rgba(26,26,26,1.00) 0%,rgba(26,26,26,1.00) 99.59%);
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light .navbar-brand.logo_h .img-fluid {
+}
+.back .navbar.navbar-expand-lg.navbar-light.bg-light {
+}
+.back #gallery h2 {
+    color: #FFFFFF;
+}
+.card.col-md-4.col-lg-12 .card-body .card-title {
+    color: #000000;
+}
+.card.col-md-4.col-lg-12 .card-body .card-text {
+    color: #1A1717;
+}
+.card.col-md-4.col-lg-12 .card-body .btn.btn-primary {
+    background-color: #DAA520;
+}
+
+
+
+
+.back #gallery h2 {
+}
+.back .vehicle_card {
+    background-image: -webkit-repeating-linear-gradient(270deg,rgba(31,14,14,1.00) 0%,rgba(255,0,0,1.00) 100%);
+    background-image: -moz-repeating-linear-gradient(270deg,rgba(31,14,14,1.00) 0%,rgba(255,0,0,1.00) 100%);
+    background-image: -o-repeating-linear-gradient(270deg,rgba(31,14,14,1.00) 0%,rgba(255,0,0,1.00) 100%);
+    background-image: repeating-linear-gradient(180deg,rgba(31,14,14,1.00) 0%,rgba(255,0,0,1.00) 100%);
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 0px;
+    text-align: center;
+    font-style: oblique;
+    font-size: large;
+}
+.back .offset-lg-1.col-lg-5 {
+    background-color: #FFFFFF;
+}
+
+
+.back #gallery {
+
+
+}
+.vehicle_card {
 }
