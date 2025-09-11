@@ -499,12 +499,13 @@ footer {
 }
 .footer-bottom{
     padding-top: 46px;
-    .footer-text{
+}
+.footer-text{
         a{
             color: $yellow;
         }
     }
-    .footer-social{
+.footer-social{
         text-align: right;
         a{
             font-size: 18px;
@@ -518,7 +519,7 @@ footer {
         }
     }
 }
-/Destination/
+/* Destination Hero Styles */
 .hero-container {
     position: relative;
     width: 100%;
@@ -541,20 +542,20 @@ footer {
 }
 
 
-.hero-container h1 {
-    position: absolute;
-    top: 40%;
-    right: 5%;
-    transform: translateY(-50%);
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    text-transform: uppercase;
-    font-size: 70px;
-    font-weight: 900;
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
-    text-align: right;
-    margin: 0;
-	transition: all 0.5s ease;
+.hero-container:hover .hero-image {
+  transform: scale(1.1);
+}
+
+/* Hero Heading Text Styles */
+.hero-text {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+  text-align: right;
+  color: #fff;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  z-index: 10;
 }
 
 .hero-container h2 {
@@ -573,6 +574,24 @@ footer {
     margin: 0;
 }
 
+.hero-container h1 {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    transform: translateY(-50%);
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 900;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+    text-align: right;
+    margin: 0;
+	transition: all 0.5s ease;
+}
+
+
+/* Tours Section Headings */
 .container h4 {
     color: black;
     font-size: 15px;
@@ -595,3 +614,7 @@ body {
 .text-center {
     text-align: center !important;
 }
+.hero-container img.hero-image {
+    transition: transform 0.5s ease-in-out;
+}
+
