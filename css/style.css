@@ -316,6 +316,25 @@ section {
 .gallery-grid img:hover, .destination-grid img:hover {
   transform: scale(1.05);
 }
+/*vehicle page */
+/* Hero section */
+.hero {
+  background-image: url('../images/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+}
+
+/* Card images uniform */
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
 
 /* Map & Contact */
 .contact-map iframe {
