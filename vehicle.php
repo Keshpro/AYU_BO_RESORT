@@ -330,7 +330,7 @@ BOOK YOUR STAY</button>
     <div class="section-title">Why Choose Our Vehicles?</div>
     <div class="why-row">
       <div class="why-card">
-        <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=700&q=80">
+        <img src="assets/vehicle/2.jpg">
         <h4>Explore Like a Local</h4>
         <p>
           Experience the freedom of self-driving and discover hidden gems near Sigiriya and beyond.<br>
@@ -339,7 +339,7 @@ BOOK YOUR STAY</button>
         </p>
       </div>
       <div class="why-card">
-        <img src="https://images.unsplash.com/photo-1511296265580-0818c5e1e1ae?auto=format&fit=crop&w=700&q=80">
+        <img src="assets/vehicle/03.jpg">
         <h4>Hassle-Free Experience</h4>
         <p>
           Experience true freedom on the road! Rent a car, tuk-tuk, or bike and explore at your own pace—no schedules, no waiting, no stress.<br>
@@ -347,7 +347,7 @@ BOOK YOUR STAY</button>
         </p>
       </div>
       <div class="why-card">
-        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=700&q=80">
+        <img src="assets/vehicle/04.jpg">
         <h4>24/7 Support</h4>
         <p>
           No matter where your journey takes you, our 24/7 support has you covered.<br>
@@ -358,7 +358,7 @@ BOOK YOUR STAY</button>
     <div class="vehicle-section-title">Our Vehicle Options</div>
     <!-- Tuktuk -->
     <div class="vehicle-card">
-      <img src="https://images.unsplash.com/photo-1519864600265-abb2450e2bdf?auto=format&fit=crop&w=500&q=80" alt="Tuktuk">
+      <img src="assets/vehicle/05.jpeg" alt="Tuktuk">
       <div class="vehicle-details">
         <h3>Tuktuk</h3>
         <p>The perfect way to explore Sri Lanka like a local. Compact, agile, and ideal for short-distance travel.</p>
@@ -392,7 +392,7 @@ BOOK NOW</button>
     </div>
     <!-- Cars -->
     <div class="vehicle-card">
-      <img src="https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&w=500&q=80" alt="Cars">
+      <img src="assets/vehicle/06.jpg" alt="Cars">
       <div class="vehicle-details">
         <h3>Cars</h3>
         <p>Comfortable and stylish vehicles suitable for city trips, road trips, or family outings.</p>
@@ -424,7 +424,7 @@ BOOK NOW</button>
     </div>
     <!-- Vans -->
     <div class="vehicle-card">
-      <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=500&q=80" alt="Vans">
+      <img src="assets/vehicle/07.jpg" alt="Vans">
       <div class="vehicle-details">
         <h3>Vans</h3>
         <p>Spacious and comfortable, ideal for families or groups planning longer trips.</p>
@@ -456,7 +456,7 @@ BOOK NOW</button>
     </div>
     <!-- Scooters -->
     <div class="vehicle-card">
-      <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=500&q=80" alt="Scooters">
+      <img src="assets/vehicle/08.jpg" alt="Scooters">
       <div class="vehicle-details">
         <h3>Scooters</h3>
         <p>Lightweight, fuel-efficient vehicles perfect for solo travelers or couples.</p>
@@ -488,7 +488,7 @@ BOOK NOW</button>
     </div>
     <!-- Safari Vehicles -->
     <div class="vehicle-card">
-      <img src="assets/vehicle/03.jpeg" alt="Safari Vehicle">
+      <img src="assets/vehicle/09.jpeg" alt="Safari Vehicle">
       <div class="vehicle-details">
         <h3>Safari Vehicles</h3>
         <p>Open-top and specially designed for wildlife and adventure tours.</p>
