@@ -118,9 +118,6 @@ h3 {
     
     <div class="nav-center">
       <div class="brand-logo">
-        <div class="brand-main" <a href="index.html">AYU BO RESORT</a></div>
-        <div class="brand-sub">SIGIRIYA</div><br>
-        <div class="brand-tagline">SRI LANKA</div>
       </div>
     </div>
     
@@ -202,7 +199,6 @@ BOOK YOUR STAY</button>
   }
 </style>
 <br><br>
-<!-- HERO SECTION -->
 <!-- Hero Section -->
 <div class="hero-container">
   <img
@@ -533,13 +529,10 @@ BOOK YOUR STAY</button>
     <div class="footer-col">
       <h4>AYU BO RESORT</h4>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Accommodation</a></li>
-        <li><a href="#">Experiences</a></li>
-        <li><a href="#">Offers</a></li>
-        <li><a href="#">Dining</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Gallery</a></li>
+         <li><a href="index.php" style="color:#bfa64a;">Home</a></li>
+          <li><a href="room.php" style="color:#bfa64a;">Accommodation</a></li>
+          <li><a href="destination1.php" style="color:#bfa64a;">Experiences</a></li>
+          <li><a href="contactus.php" style="color:#bfa64a;">Contact Us</a></li>
       </ul>
     </div>
 

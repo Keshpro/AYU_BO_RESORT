@@ -222,7 +222,7 @@ $result = $conn->query("SELECT * FROM customers LIMIT 5"); // For example
 
   <!-- Hero Section -->
   <section class="hero">
-    <img src="rooms/hero.img.jpeg" alt="Hotel Room" />
+    <img src="assets/rooms/hero.img.jpeg" alt="Hotel Room" />
     <div class="hero-text">ACCOMMODATIONS</div>
   </section>
 
@@ -232,7 +232,6 @@ $result = $conn->query("SELECT * FROM customers LIMIT 5"); // For example
     <p class="intro-text">
       “AYU BO RESORT” stands as a serene sanctuary of comfort and culture in the heart of Sigiriya, one of Sri Lanka’s most treasured UNESCO World Heritage Sites. Surrounded by the iconic Sigiriya Rock Fortress, lush landscapes and ancient royal gardens, our retreat offers more than just accommodation — it invites you to experience timeless heritage, natural beauty, and authentic Sri Lankan hospitality in perfect harmony.
     </p>
-    <a href="#" class="book-btn">Get More Details</a>
   </section>
 
   <!-- Rooms -->
@@ -242,13 +241,13 @@ $result = $conn->query("SELECT * FROM customers LIMIT 5"); // For example
       <div class="carousel slide" data-bs-ride="carousel" id="carouselDragonfly" style="border-radius: 15px; overflow: hidden; max-width: 600px;">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="rooms/room1/img1.jpeg" class="d-block w-100" alt="Dragonfly Room 1" />
+            <img src="assets/rooms/room1/img1.jpeg" class="d-block w-100" alt="Dragonfly Room 1" />
           </div>
           <div class="carousel-item">
-            <img src="rooms/room1/img2.jpeg" class="d-block w-100" alt="Dragonfly Room 2" />
+            <img src="assets/rooms/room1/img2.jpeg" class="d-block w-100" alt="Dragonfly Room 2" />
           </div>
           <div class="carousel-item">
-            <img src="rooms/room1/img3.jpeg" class="d-block w-100" alt="Dragonfly Room 3" />
+            <img src="assets/rooms/room1/img3.jpeg" class="d-block w-100" alt="Dragonfly Room 3" />
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselDragonfly" data-bs-slide="prev">
@@ -277,13 +276,13 @@ $result = $conn->query("SELECT * FROM customers LIMIT 5"); // For example
       <div class="carousel slide" data-bs-ride="carousel" id="carouselMantis" style="border-radius: 15px; overflow: hidden; max-width: 600px;">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="rooms/room2/img1.jpeg" class="d-block w-100" alt="Room 1" />
+            <img src="assets/rooms/room2/img1.jpeg" class="d-block w-100" alt="Room 1" />
           </div>
           <div class="carousel-item">
-            <img src="rooms/room2/img2.jpeg" class="d-block w-100" alt="Room 2" />
+            <img src="assets/rooms/room2/img2.jpeg" class="d-block w-100" alt="Room 2" />
           </div>
           <div class="carousel-item">
-            <img src="rooms/room2/img3.jpeg" class="d-block w-100" alt="Room 3" />
+            <img src="assets/rooms/room2/img3.jpeg" class="d-block w-100" alt="Room 3" />
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselMantis" data-bs-slide="prev">
@@ -312,10 +311,10 @@ $result = $conn->query("SELECT * FROM customers LIMIT 5"); // For example
       <div class="carousel slide" data-bs-ride="carousel" id="carouselChameleon" style="border-radius: 15px; overflow: hidden; max-width: 600px;">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="rooms/room3/img1.webp" class="d-block w-100" alt="Chameleon Room 1" />
+            <img src="assets/rooms/room3/img1.jpg" class="d-block w-100" alt=" Room 1" />
           </div>
           <div class="carousel-item">
-            <img src="rooms/room3/img2.jpeg" class="d-block w-100" alt="Chameleon Room 2" />
+            <img src="assets/rooms/room3/img2.jpeg" class="d-block w-100" alt=" Room 2" />
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselChameleon" data-bs-slide="prev">
@@ -352,13 +351,10 @@ $result = $conn->query("SELECT * FROM customers LIMIT 5"); // For example
       <div class="footer-col mb-4" style="min-width: 200px;">
         <h4 style="font-weight: 900; margin-bottom: 1rem; color:#bfa64a;">AYU BO RESORT</h4>
         <ul style="list-style:none; padding-left: 0; color:#bfa64a;">
-          <li><a href="#" style="color:#bfa64a;">Home</a></li>
-          <li><a href="#" style="color:#bfa64a;">Accommodation</a></li>
-          <li><a href="#" style="color:#bfa64a;">Experiences</a></li>
-          <li><a href="#" style="color:#bfa64a;">Offers</a></li>
-          <li><a href="#" style="color:#bfa64a;">Dining</a></li>
-          <li><a href="#" style="color:#bfa64a;">Contact Us</a></li>
-          <li><a href="#" style="color:#bfa64a;">Gallery</a></li>
+          <li><a href="index.php" style="color:#bfa64a;">Home</a></li>
+          <li><a href="room.php" style="color:#bfa64a;">Accommodation</a></li>
+          <li><a href="destination1.php" style="color:#bfa64a;">Experiences</a></li>
+          <li><a href="contactus.php" style="color:#bfa64a;">Contact Us</a></li>
         </ul>
       </div>
       <div class="footer-col footer-logo-col text-center mb-4" style="min-width: 150px; color:#bfa64a;">

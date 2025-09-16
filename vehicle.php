@@ -308,15 +308,20 @@ BOOK YOUR STAY</button>
 
   </div>
   </div>
-</nav>   
+</nav><br><br><br><br>
   <!-- Hero Section -->
   <div class="hero" style="position:relative;">
     <div class="hero-imgs">
-      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80">
-      <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80">
-      <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=400&q=80">
-      <img src="https://images.unsplash.com/photo-1454023492550-5696f8ff10e1?auto=format&fit=crop&w=400&q=80">
-      <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80">
+      <img src="assets/vehicle/img1.webp">
+      <img src="assets/vehicle/img2.webp">
+      <img src="assets/vehicle/img3.webp">
+      <img src="assets/vehicle/img4.jpeg">
+      <img src="assets/vehicle/img5.jpg">
+      <img src="assets/vehicle/img6.jpeg">
+      <img src="assets/vehicle/img7.jpeg">
+      <img src="assets/vehicle/img8.jpeg">
+      <img src="assets/vehicle/img9.jpeg">
+      <img src="assets/vehicle/img10.jpeg">
     </div>
     <div class="hero-overlay">
       <h1>Embark on an Unforgettable Adventure</h1><br>
@@ -330,7 +335,7 @@ BOOK YOUR STAY</button>
     <div class="section-title">Why Choose Our Vehicles?</div>
     <div class="why-row">
       <div class="why-card">
-        <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=700&q=80">
+        <img src="assets/vehicle/img1.webp">
         <h4>Explore Like a Local</h4>
         <p>
           Experience the freedom of self-driving and discover hidden gems near Sigiriya and beyond.<br>
@@ -339,7 +344,7 @@ BOOK YOUR STAY</button>
         </p>
       </div>
       <div class="why-card">
-        <img src="https://images.unsplash.com/photo-1511296265580-0818c5e1e1ae?auto=format&fit=crop&w=700&q=80">
+        <img src="assets/vehicle/img11.jpeg">
         <h4>Hassle-Free Experience</h4>
         <p>
           Experience true freedom on the road! Rent a car, tuk-tuk, or bike and explore at your own pace—no schedules, no waiting, no stress.<br>
@@ -347,7 +352,7 @@ BOOK YOUR STAY</button>
         </p>
       </div>
       <div class="why-card">
-        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=700&q=80">
+        <img src="assets/vehicle/img6.jpeg">
         <h4>24/7 Support</h4>
         <p>
           No matter where your journey takes you, our 24/7 support has you covered.<br>
@@ -358,7 +363,7 @@ BOOK YOUR STAY</button>
     <div class="vehicle-section-title">Our Vehicle Options</div>
     <!-- Tuktuk -->
     <div class="vehicle-card">
-      <img src="https://images.unsplash.com/photo-1519864600265-abb2450e2bdf?auto=format&fit=crop&w=500&q=80" alt="Tuktuk">
+      <img src="assets/vehicle/img12.jpeg" alt="Tuktuk">
       <div class="vehicle-details">
         <h3>Tuktuk</h3>
         <p>The perfect way to explore Sri Lanka like a local. Compact, agile, and ideal for short-distance travel.</p>
@@ -392,7 +397,7 @@ BOOK NOW</button>
     </div>
     <!-- Cars -->
     <div class="vehicle-card">
-      <img src="https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&w=500&q=80" alt="Cars">
+      <img src="assets/vehicle/img13.jpg" alt="Cars">
       <div class="vehicle-details">
         <h3>Cars</h3>
         <p>Comfortable and stylish vehicles suitable for city trips, road trips, or family outings.</p>
@@ -424,7 +429,7 @@ BOOK NOW</button>
     </div>
     <!-- Vans -->
     <div class="vehicle-card">
-      <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=500&q=80" alt="Vans">
+      <img src="assets/vehicle/img14.jpg" alt="Vans">
       <div class="vehicle-details">
         <h3>Vans</h3>
         <p>Spacious and comfortable, ideal for families or groups planning longer trips.</p>
@@ -456,7 +461,7 @@ BOOK NOW</button>
     </div>
     <!-- Scooters -->
     <div class="vehicle-card">
-      <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=500&q=80" alt="Scooters">
+      <img src="assets/vehicle/img15.jpg" alt="Scooters">
       <div class="vehicle-details">
         <h3>Scooters</h3>
         <p>Lightweight, fuel-efficient vehicles perfect for solo travelers or couples.</p>
@@ -488,7 +493,7 @@ BOOK NOW</button>
     </div>
     <!-- Safari Vehicles -->
     <div class="vehicle-card">
-      <img src="assets/vehicle/03.jpeg" alt="Safari Vehicle">
+      <img src="assets/vehicle/img16.webp" alt="Safari Vehicle">
       <div class="vehicle-details">
         <h3>Safari Vehicles</h3>
         <p>Open-top and specially designed for wildlife and adventure tours.</p>
@@ -526,13 +531,10 @@ BOOK NOW</button>
     <div class="footer-col">
       <h4>AYU BO RESORT</h4>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Accommodation</a></li>
-        <li><a href="#">Experiences</a></li>
-        <li><a href="#">Offers</a></li>
-        <li><a href="#">Dining</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Gallery</a></li>
+        <li><a href="index.php" style="color:#bfa64a;">Home</a></li>
+          <li><a href="room.php" style="color:#bfa64a;">Accommodation</a></li>
+          <li><a href="destination1.php" style="color:#bfa64a;">Experiences</a></li>
+          <li><a href="contactus.php" style="color:#bfa64a;">Contact Us</a></li>
       </ul>
     </div>
 

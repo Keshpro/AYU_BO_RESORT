@@ -115,9 +115,7 @@ $result = $conn->query("SELECT * FROM customers LIMIT 5"); // For example
     
     <div class="nav-center">
       <div class="brand-logo">
-        <div class="brand-main">AYU BO RESORT</div>
-        <div class="brand-sub">SIGIRIYA</div><br>
-        <div class="brand-tagline">SRI LANKA</div>
+       
       </div>
     </div>
     <ul class="nav-menu">
@@ -133,8 +131,8 @@ $result = $conn->query("SELECT * FROM customers LIMIT 5"); // For example
   <div class="row">
     <div class="col-lg-6"><img src="assets/destination/elepantwatch1.webp" class="img-fluid" alt="Placeholder image">&nbsp;</div>
     <div class="col-lg-6 des"><br>
-     <h5>Welcome to Ayubowan Bay Resort</h5><br>
-      <p>&nbsp;Welcome to Ayubowan Bay Resort, one of Sri Lanka’s most cherished getaways, recommended by over 500 delighted guests. Located near breathtaking attractions, our resort is the perfect blend of comfort, luxury, and authentic Sri Lankan hospitality. We provide elegantly designed rooms with modern amenities, including high-speed WiFi, hot water, and stunning views of the bay. Beyond your stay, we make your journey seamless by offering vehicles for sightseeing, ensuring you can explore nearby attractions with ease. Whether you’re seeking a relaxing escape, an adventurous trip, or a cultural experience, Ayubowan Bay Resort is your ideal base. Our friendly staff is dedicated to making every moment memorable, ensuring you leave with beautiful memories and the desire to return. Experience a stay where comfort meets adventure, and every detail is crafted for your ultimate satisfaction.</p>
+     <h5>Welcome to Ayu Bo Resort</h5><br>
+      <p>&nbsp;Welcome to Ayu Bo Resort, one of Sri Lanka’s most cherished getaways, recommended by over 500 delighted guests. Located near breathtaking attractions, our resort is the perfect blend of comfort, luxury and authentic Sri Lankan hospitality. We provide elegantly designed rooms with modern amenities, including high-speed WiFi, hot water and stunning views of the Sigiriya rock. Beyond your stay, we make your journey seamless by offering vehicles for sightseeing, ensuring you can explore nearby attractions with ease. Whether you’re seeking a relaxing escape, an adventurous trip or a cultural experience, Ayu Bo Resort is your ideal base. Our friendly staff is dedicated to making every moment memorable, ensuring you leave with beautiful memories and the desire to return. Experience a stay where comfort meets adventure and every detail is crafted for your ultimate satisfaction.</p>
     </div>
   </div>
 </section>
@@ -154,13 +152,10 @@ $result = $conn->query("SELECT * FROM customers LIMIT 5"); // For example
     <div class="footer-col">
       <h4>AYU BO RESORT</h4>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Accommodation</a></li>
-        <li><a href="#">Experiences</a></li>
-        <li><a href="#">Offers</a></li>
-        <li><a href="#">Dining</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Gallery</a></li>
+        <li><a href="index.php" style="color:#bfa64a;">Home</a></li>
+          <li><a href="room.php" style="color:#bfa64a;">Accommodation</a></li>
+          <li><a href="destination1.php" style="color:#bfa64a;">Experiences</a></li>
+          <li><a href="contactus.php" style="color:#bfa64a;">Contact Us</a></li>
       </ul>
     </div>
 

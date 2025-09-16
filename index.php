@@ -46,7 +46,8 @@ BOOK YOUR STAY</button>
         <div class="brand-tagline">SRI LANKA</div>
     </div>
       <h1>Welcome to AYU BO RESORT</h1>
-      <button class="hero-book-btn">Book Your Stay</button>
+      <button class="hero-book-btn" onclick="window.location.href='booking.php'">
+BOOK YOUR STAY</button>
     </div>
   </header>
 
@@ -54,7 +55,7 @@ BOOK YOUR STAY</button>
   <section class="hero">
     <div class="hero-video-container">
       <video autoplay loop muted class="hero-video">
-        <source src="assets/IMG_4373.webm" type="video/webm">
+        <source src="assets/herovid.webm" type="video/webm">
         Your browser does not support the video tag.
       </video>
     </div>
@@ -64,34 +65,46 @@ BOOK YOUR STAY</button>
   <main>
     <section class="section">
 <section class="about">
-      <h2>Welcome to Ayubowan Bay Resort</h2>
-      Welcome to Ayubowan Bay Resort, one of Sri Lanka’s most cherished getaways, recommended by over 500 delighted guests. Located near breathtaking attractions, our resort is the perfect blend of comfort, luxury, and authentic Sri Lankan hospitality.&nbsp;</p>
-    <p>We provide elegantly designed rooms with modern amenities, including high-speed WiFi, hot water, and stunning views of the bay. Beyond your stay, we make your journey seamless by offering vehicles for sightseeing, ensuring you can explore nearby attractions with ease. Whether you’re seeking a relaxing escape, an adventurous trip, or a cultural experience, Ayubowan Bay Resort is your ideal base.&nbsp;</p>
+      <h2>Welcome to Ayu Bo&nbsp; Resort</h2>
+      Welcome to Ayu Bo Resort, one of Sri Lanka’s most cherished getaways, recommended by over 500 delighted guests. Located near breathtaking attractions, our resort is the perfect blend of comfort, luxury and authentic Sri Lankan hospitality.&nbsp;</p>
+    <p>We provide elegantly designed rooms with modern amenities, including high-speed WiFi, hot water and stunning views of the Sigiriya rock. Beyond your stay, we make your journey seamless by offering vehicles for sightseeing, ensuring you can explore nearby attractions with ease. Whether you’re seeking a relaxing escape, an adventurous trip or a cultural experience, Ayu Bo Resort is your ideal base.&nbsp;</p>
     <p>Our friendly staff is dedicated to making every moment memorable, ensuring you leave with beautiful memories and the desire to return. Experience a stay where comfort meets adventure, and every detail is crafted for your ultimate satisfaction.</p>
   </section>
     <section class="sec2">&nbsp;
       <div class="row">
-        <div class="col-lg-6">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="assets/IMG_4373.webm"></iframe>
+        <div class="col-lg-6 col-xl-12">
+          <div style="display: flex; align-items: center; justify-content: center; background: #faf7f3; border-radius: 14px; padding: 32px 16px; margin-bottom: 32px;">
+  <!-- Left: Offer Content -->
+  <div style="flex: 1; max-width: 380px; margin-right: 32px; background: #fff5ec; border-radius: 12px; padding: 24px 24px 24px 28px; box-shadow: 0 2px 12px rgba(232,198,158,0.10);">
+    <h2 style="color: #ab862d; margin-top: 0; font-size: 1.7em; letter-spacing: 1px;">
+      Exclusive Honeymoon Offer
+    </h2>
+    <p style="font-size: 1.1em; color: #46392b; margin-bottom: 18px;">
+      Make your honeymoon unforgettable at Ayu Bo Resort, Sigiriya:
+    </p>
+    <ul style="color: #6d5c44; line-height:1.8; padding-left: 20px; font-size:1em; margin-bottom: 16px;">
+      <li>Private candlelit dinner with Sigiriya Rock view</li>
+      <li>Complimentary couple’s spa massage</li>
+      <li>Welcome sparkling wine, fruit basket & chocolates</li>
+      <li>Romantic floral room décor</li>
+      <li>Free upgrade to best available suite*</li>
+      <li>Late check-out until 2 PM</li>
+      <li>Sunrise Sigiriya guided tour & photo session</li>
+    </ul>
+    <p style="color: #a66d1b; margin-bottom: 16px; font-size: 1em;">
+      Limited-time offer! Book your romantic escape today.
+    </p>
+    <a href="booking.php" style="display: inline-block; background: #ab862d; color: #fff; padding: 12px 30px; border-radius: 7px; font-weight: bold; text-decoration: none; font-size: 1.1em; margin-top:8px;">
+    BOOK NOW
+    </a>
+  </div>
+  <!-- Right: Poster Image -->
+  <div style="flex: 1; display: flex; justify-content: center;">
+    <img src="assets/offer.png" alt="Honeymoon Couple Sigiriya" width="500" height="450" class="img-fluid" style="border-radius: 16px; box-shadow: 0 4px 22px rgba(171,134,45,0.10);" />
+  </div>
+</div>
+
           </div>
-        </div>
-        <div class="col-lg-6">
-          <form>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-              <small id="emailHelp1" class="form-text text-muted">We'll never share your email with anyone else.</small> </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-            </div>
-            <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1"><br>
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
         </div>
       </div>
     </section>
@@ -102,23 +115,23 @@ BOOK YOUR STAY</button>
       <h3>ACCOMMODATION</h3>
       <div class="room-cards">
         <div class="room-card">
-          <div class="room-title" align="center">Luxury Panoramic</div>
-          <img src="images/ImgResponsive_Placeholder.png" class="img-fluid" alt="Placeholder image">
-          <div class="room-desc">Breathtaking views of the lake and lush jungles. 85 Rooms | Lake View</div>
+          <div class="room-title" align="center">Lion’s Gate Suite</div>
+          <img src="assets/rooms/room1/img1.jpeg" class="img-fluid" alt="Lion’s Gate Suite">
+          <div class="room-desc">Breathtaking views of the sigiriya rock and lush jungles.</div>
           <button class="book-your-stay-btn" onclick="window.location.href='room.php'">
 Book your room</button>
         </div>
         <div class="room-card">
-          <div class="room-title" align="center">Luxury</div>
-          <img src="images/ImgResponsive_Placeholder.png" class="img-fluid" alt="Placeholder image">
-          <div class="room-desc">Teak interiors, comfort & lush jungle views. 30 Rooms | Garden View</div>
+          <div class="room-title" align="center">Mirror Wall Chamber</div>
+          <img src="assets/rooms/room2/img1.jpeg" class="img-fluid" alt="Mirror Wall Chamber">
+          <div class="room-desc">Teak interiors, comfort & Double Bedroom With Pidurangala view</div>
            <button class="book-your-stay-btn" onclick="window.location.href='room.php'">
 Book your room</button>
         </div>
         <div class="room-card">
-          <div class="room-title" align="center">Royal Suite</div>
-          <img src="images/ImgResponsive_Placeholder.png" class="img-fluid" alt="Placeholder image">
-          <div class="room-desc">Expansive living spaces, lake & mountain view. 15 Suites | Lake/Mountain View</div>
+          <div class="room-title" align="center">Lotus Pond Suite</div>
+          <img src="assets/rooms/room3/img1.jpg" class="img-fluid" alt="Lotus Pond Suite">
+          <div class="room-desc">Expansive living spaces, lake & Paddy Field view</div>
            <button class="book-your-stay-btn" onclick="window.location.href='room.php'">
 Book your room</button>
         </div>
@@ -132,7 +145,7 @@ Book your room</button>
         <div class="room-card">
           <div class="room-title">SIGIRIYA</div>
           <img src="assets/destination/7afb1867ab39dcc0187ca69d9318d791.jpg" alt="Placeholder image" width="350" class="img-fluid">
-          <div class="room-desc">The star attraction, a UNESCO World Heritage Site often called the Lion Rock is a stunning 200m rock fortress featuring ancient frescoes, water gardens, and panoramic summit views.</div>
+          <div class="room-desc"> The star attraction, often called the Lion Rock is a stunning 200m rock fortress featuring ancient frescoes, water gardens, and panoramic summit views.</div>
           <button onclick="window.location.href='destination1.php'">More Details</button>
         </div>
         <div class="room-card">
@@ -146,7 +159,7 @@ Book your room</button>
         <div class="room-card">
           <div class="room-title">Heritage Temples</div>
           <img src="assets/destination/d7fe25a1a13234d4d7d70ad72463810a.jpg" alt="Placeholder image" height="350" class="img-fluid"><br>
-          <div class="room-desc">Once the majestic capital of Sri Lanka, Polonnaruwa Ancient City is a living museum of history and architecture.</div>
+          <div class="room-desc">Once the majestic capital of Sri Lanka, Polonnaruwa Ancient City is a living museum of history and architecture.<br><br></div>
           <button onclick="window.location.href='destination1.php'">More Details</button>
         </div>
       </div>
@@ -157,15 +170,15 @@ Book your room</button>
       <h3>PickUp Your Vehicle</h3>
       <div class="room-cards">
         <div class="room-card">
-       <img class="room-img img-fluid" src="assets/vehicle/05.jpeg" alt="Luxury Room">
-       <div class="room-title">Threewheel</div>
+       <img class="room-img img-fluid" src="assets/vehicle/img4.jpeg" alt="tuktuk">
+       <div class="room-title">TukTuk</div>
        <div class="room-desc">The perfect way to explore Sri Lanka like a local. Compact, agile, and ideal for short-distance travel.&nbsp;</div>
-       <button onclick="window.location.href='vehicle.html'">More Details</button>
+       <button onclick="window.location.href='vehicle.php'">More Details</button>
 
        </div>
         
        <div class="room-card">
-       <img class="room-img img-fluid" src="assets/vehicle/03.jpg" alt="Luxury Room">
+       <img class="room-img img-fluid" src="assets/vehicle/img16.webp" alt="Safari Jeep">
        <div class="room-title">SAFARI JEEP</div>
        <div class="room-desc">
          <p>Open-top and specially designed&nbsp;</p>
@@ -175,7 +188,7 @@ Book your room</button>
        </div>
 
         <div class="room-card">
-       <img class="room-img img-fluid" src="assets/vehicle/06.jpg" alt="Luxury Room">
+       <img class="room-img img-fluid" src="assets/vehicle/img13.jpg" alt="car">
        <div class="room-title">CAR</div>
        <div class="room-desc">Comfortable and stylish vehicles suitable for city trips, road trips, or family outings.</div>
        <button onclick="window.location.href='vehicle.html'">More Details</button>
@@ -195,7 +208,7 @@ Book your room</button>
         <p>Indulge in unique spa treatments, fine dining, and more.</p>
         <p>
           Discover a world of relaxation and indulgence where every detail is crafted for your comfort. 
-          Whether you’re enjoying our signature spa therapies, savoring fine culinary delights, or unwinding 
+          Whether you’re enjoying our signature spa therapies, savoring fine culinary delights or unwinding 
           in a serene setting, our exclusive offers promise memories you’ll cherish forever.
         </p>
       </div>
@@ -214,7 +227,7 @@ Book your room</button>
     <!-- Experiences Section -->
     <section class="experiences" id="experiences">
       <h3><strong>Culture, Adventure, Serene Nature</strong></h3>
-      <p>Discover local culture, wildlife, cave dining, and peaceful nature escapes near Sigiriya.</p>
+      <p>Discover local culture, wildlife, cave dining and peaceful nature escapes near Sigiriya.</p>
 	  <div class="row">
 		  <div class="col-lg-4"><img src="assets/cul.png" class="img-fluid" alt="Placeholder image">&nbsp;</div>
 		  <div class="col-lg-4"><img src="assets/ad.png" class="img-fluid" alt="Placeholder image"></div>
@@ -229,13 +242,10 @@ Book your room</button>
     <div class="footer-col">
       <h4>AYU BO RESORT</h4>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Accommodation</a></li>
-        <li><a href="#">Experiences</a></li>
-        <li><a href="#">Offers</a></li>
-        <li><a href="#">Dining</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Gallery</a></li>
+         <li><a href="index.php" style="color:#bfa64a;">Home</a></li>
+          <li><a href="room.php" style="color:#bfa64a;">Accommodation</a></li>
+          <li><a href="destination1.php" style="color:#bfa64a;">Experiences</a></li>
+          <li><a href="contactus.php" style="color:#bfa64a;">Contact Us</a></li>
       </ul>
     </div>
 
